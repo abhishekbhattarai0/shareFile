@@ -90,7 +90,7 @@ export const sendChunkAck = async (
             resetCurrentChunkSet()
         }
     } catch (error) {
-
+        console.log("error :", error)
     }
 };
 
